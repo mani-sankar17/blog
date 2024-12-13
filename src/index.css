@@ -1,0 +1,405 @@
+* {
+  margin:0;
+  box-sizing:border-box;
+}
+::selection {
+  user-select:none;
+}
+/* Navbar Styling */
+.navbar {
+  color:white;
+  height:60px;
+  display:flex;
+  line-height:60px;
+  border-radius:20px;
+  justify-content:space-between;
+  padding:10px 100px;
+}
+.navbar span {
+  color:#F2CC0F;
+}
+.navbar h1 {
+  font-size:40px;
+  text-shadow:-1px -1px 2px #000;
+  /* color:white; */
+}
+.sections a {
+  text-decoration:none;
+  margin:0px 12px;
+  color:white;
+  padding:4px 10px;
+  border-radius:5px;
+  font-size:20px;
+}
+.color {
+  background-color:#F2CC0F;
+  color:#000 !important;
+}
+
+
+/* Home page styling */
+
+.home-section {
+padding:10px 0px;
+font-family:sans-serif;
+background:
+          linear-gradient(rgba(199, 67, 226, 0.5), rgba(193, 51, 155, 0.5)),
+          url("https://img.freepik.com/free-photo/flowers-branches-with-camera-notebook-beads-blue-table_23-2148043935.jpg?ga=GA1.1.1841183981.1707650756&semt=ais_hybrid");
+background-size:cover;
+height:100vh;
+}
+.home h2 {
+  padding:5px 10px;
+  margin:20px 0px;
+  color:#7EACB5;
+  border-left:5px solid #C96868;
+}
+.head {
+  color:white;
+  font-size:70px;
+}
+.sub-head {
+  font-family:cursive;
+  color:white;
+  font-size:40px;
+}
+.moment-button, .subscribe {
+  border:none;
+  color:#000;
+  border-radius:5px;
+  background-color: #F2CC0F;
+  margin:20px 0px 0px;
+  padding:8px 15px;
+  font-size:20px;
+  cursor:grab;
+}
+.subscribe {
+  cursor:pointer;
+  font-size:15px;
+  margin:5px 0px;
+}
+.container-head {
+  padding:0px 100px;
+  color:#000;
+  font-size:40px;
+  margin:10px 0px 20px;
+}
+
+/* Styling the memory card inside home page */
+
+.memory {
+  display:flex;
+  flex-direction:column;
+  justify-content:space-between;
+  color:black;
+  width:400px;
+  background-color:#ffffff;
+  box-shadow:0px 0px 4px 2px #ccc;
+}
+.memory-container a {
+  text-decoration:none;
+  width:400px;
+  height:380px;
+  margin:10px 0px;
+}
+.memory img {
+  width:400px;
+  height:320px;
+}
+
+.memory-content {
+  font-weight:bold;
+  font-size:24px;
+  font-family:'Courier New', Courier, monospace !important;
+  overflow:hidden;
+  padding:15px 0px;
+  text-align:center;
+}
+
+.memory-container {
+  display:grid;
+  grid-template-columns:auto auto auto;
+  gap:60px;
+  justify-content:center;
+}
+.memory-date {
+  font-size:20px;
+  padding:5px 0px;
+  font-family:montserrat;
+}
+.image-card img {
+  height:500px;
+  width:350px; 
+}
+.image-card {
+  display:grid;
+  grid-template-columns:auto auto auto;
+  justify-content:center;
+  gap:70px;
+  height:550px;
+  margin:20px 0px 50px;
+}
+.footer {
+  font-family:sans-serif;
+  margin:50px 0px;
+  background-color:rgba(119, 35, 97, 0.962);
+  padding:40px 200px;
+  color:white;
+  display:grid;
+  grid-template-columns:40% auto auto;
+  gap:50px;
+}
+.foot-st h1{
+  text-align:center;
+  padding:0px 0px 20px;
+}
+.foot-mid {
+  display:flex;
+  flex-direction:column;
+}
+.foot-mid a {
+  text-decoration:none;
+  margin:5px 0px;
+  color:white;
+  font-size:20px;
+}
+.foot-end p {
+  font-size:20px;
+  margin:9px 0px;
+
+}
+
+/* post styling */
+.post-section {
+    font-family:sans-serif;
+    background:
+              linear-gradient(rgba(199, 67, 226, 0.6), rgba(193, 51, 155, 0.6)),
+              url("https://img.freepik.com/free-vector/floral-christmas-border-background-vector-blue-with-beautiful-red-winterberry_53876-144439.jpg?t=st=1733915893~exp=1733919493~hmac=acd396878fc9f012b8443d1a8b4ec1aff3c77486e9786c243501454e924f4320&w=996");
+    background-size:cover;
+    height:100vh;
+}
+.post {
+  margin:30px auto;
+  max-width:500px;
+  padding:20px 30px;
+  border-radius:10px;
+  background:linear-gradient(rgba(127, 70, 139, 0.3), rgba(208, 87, 176, 0.3));
+}
+.post-container {
+  display:grid;
+  align-items:center;
+  grid-template-columns:40% 60%;
+  padding:20px;
+}
+.quote {
+  color:white;
+  text-align:center;
+  font-size:60px;
+}
+.post h3 {
+  text-align:center;
+}
+form {
+  padding:30px 0px;
+}
+/* label {
+  display:block;
+  color:#481f47;
+  font-weight:bold;
+  font-size:18px;
+  margin:5px 0px 0px;
+} */
+input, textarea {
+  font-size:16px;
+  width:100%;   
+  padding:5px 10px;
+  border:none;
+  border-radius:5px;
+  background-color:#ffffffcc;
+  /* border-bottom:1px solid #fff; */
+  margin:5px 0px;
+  color:rgb(103, 95, 95);
+}
+input:focus, textarea:focus {
+  outline:0px;
+  color:black;
+}
+form button {
+  display:block;
+  margin:40px auto 0px;
+  border:none;
+  color:#000;
+  border-radius:5px;
+  background-color: #F2CC0F;
+  cursor:pointer;
+  font-size:15px;
+  padding:8px 15px;
+}
+
+/* details page styling */
+
+.details-section {
+  background:
+            linear-gradient(rgba(199, 67, 226, 0.63), rgba(193, 51, 155, 0.619)),
+            url("https://img.freepik.com/free-photo/decorative-wedding-elements_23-2148098793.jpg?ga=GA1.1.1841183981.1707650756&semt=ais_hybrid");
+  background-size:cover;
+  height:100vh;
+}
+
+.img-card {
+  background-color:white;
+  padding:20px 20px 40px;
+}
+.img-card > img{
+  height:250px;
+}
+.img-details{
+  display:flex;
+  justify-content:space-between;
+  margin-top:10px;
+}
+.memory-delete {
+  background-color:orange;
+  color:black;
+  border-radius:5px;
+  padding:5px 10px;
+  border:none;
+  font-size:18px;
+  display:block;
+  margin:auto;
+}
+.details {
+  display:flex;
+  justify-content:space-around;
+  height:75vh;
+  align-items:center;
+}
+.content h3 {
+  text-align:center;
+  margin:0px 0px 30px;
+}
+.content p {
+  font-size:25px;
+  color:#fff;
+  margin:20px 0px;
+  font-family:sans-serif;
+}
+.content {
+  height:400px;
+  background:linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4));
+  padding:40px 30px;
+  width:50%;
+  overflow:auto;
+}
+.neonderthaw-regular {
+  font-family: "Neonderthaw", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+.grey-qo-regular {
+  font-family: "Grey Qo", serif;
+  font-size:60px;
+  color:#F2CC0F;
+  font-weight: 400;
+  font-style: normal;
+}
+
+/* About section styling */
+.about-section {
+  background:
+  linear-gradient(rgba(199, 67, 226, 0.5), rgba(193, 51, 155, 0.5)),
+  url("https://img.freepik.com/free-photo/girl-taking-photo-her-friends-group-young-friends-hiking-through-forest-travel-hiking-adventure-concept_613910-18677.jpg?t=st=1734004415~exp=1734008015~hmac=c4a0ceda99b4615e3165f5dd9914098c1761d42893846e0d0dfb5afce1408fcf&w=740");
+  background-size:cover;
+  height:100vh;
+  font-family:sans-serif;
+}
+
+.about-us img {
+  height:330px;
+}
+.about-content {
+  text-align:center;
+  padding:50px 20px;
+  background:linear-gradient(rgba(101, 19, 117, 0.4), rgba(70, 11, 55, 0.4));
+  border-radius:10px;
+}
+.about-content h3{
+  color:#F2CC0F;
+  font-size:50px;
+  margin-bottom:10px;
+}
+.about-content h4 {
+  font-size:40px;
+  margin-bottom:5px;
+}
+.about-content p {
+  font-size:25px;
+  color:white;
+  margin:20px 0px 0px;
+}
+.about-us {
+  display:grid;
+  padding:30px;
+  grid-template-columns:40% 60%;
+  gap:30px;
+  justify-content:space-around;
+  height:500px;
+  align-content:center;
+  margin:10px 20px;
+}
+
+/* Thanks section styling */
+
+.thanks {
+  background-color:rgb(207, 196, 196, 0.5);
+  height:200px;
+  width:400px;
+  margin:50px auto;
+  text-align:center;
+  align-content:center;
+  border-radius:5px;
+}
+.thanks button {
+  background-color:orange;
+  color:black;
+  border-radius:5px;
+  padding:5px 10px;
+  margin:10px 0px;
+  border:none;
+  cursor:pointer;
+  font-size:15px;
+}
+
+/* Navbar responsiveness */
+.hamburger-menu span {
+  height:8px;
+  display:block;
+  margin:4px auto;
+  width:35px;
+  background-color:white;
+}
+.hide {
+  display:none;
+}
+@media (max-width:900px) {
+  .hamburger-menu {
+    display:block;
+    margin-top:8px;
+  } 
+  .sections {
+    display:none;
+  }
+  .show {
+    display:grid;
+    position:absolute;
+    top:90px;
+    right:70px; 
+    background-color:black;
+    border-radius:5px;
+  }
+  .show a {
+    padding:0px 5px;
+    margin:0px;
+    text-align:center;
+  }
+}

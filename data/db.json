@@ -1,0 +1,36 @@
+{
+  "memory": [
+    {
+      "id": "cf86",
+      "title": "Manali with mates ",
+      "name": "Mani",
+      "url": "https://img.freepik.com/free-photo/ulsan-bawi-rock-seoraksan-mountains-winter-south-korea_335224-287.jpg?semt=ais_hybrid",
+      "desc": "The mountains have a way of calling to the soul. In Manali, I found peace, tranquility, and a renewed sense of purpose. As I stood amidst the towering peaks, I realized that true happiness lies in the journey, not the destination.",
+      "date": "2020-07-15"
+    },
+    {
+      "id": "e9b6",
+      "title": "Taj Mahal tour ",
+      "name": "Adam",
+      "url": "https://img.freepik.com/free-photo/views-entrance-indian-temple_119635-5.jpg?ga=GA1.1.1841183981.1707650756&semt=ais_hybrid",
+      "desc": "Sun-kissed days and Taj Mahal nights with my favorite people. Witnessing the epitome of love and beauty, the Taj Mahal, was a dream come true. Surrounded by friends, laughter, and unforgettable moments, this trip to Agra will forever be etched in our hearts.",
+      "date": "2019-03-25"
+    },
+    {
+      "id": "4c17",
+      "title": "Goa ",
+      "name": "Ritwin",
+      "url": "https://img.freepik.com/free-photo/beautiful-tropical-beach-sea_74190-6583.jpg?ga=GA1.1.1841183981.1707650756&semt=ais_hybrid",
+      "desc": "Lost in the vibrant tapestry of Goa, where golden sands meet azure waters and the spirit of adventure runs wild. With my closest friends by my side, we're soaking up the sun, savoring delicious seafood, and dancing the night away. From exploring ancient temples to partying till dawn, every moment is a celebration of friendship, fun, and unforgettable memories.",
+      "date": "2022-02-12"
+    },
+    {
+      "id": "9bdb",
+      "title": "Trip to Kedarnath",
+      "name": "Aditya",
+      "url": "https://media.istockphoto.com/id/515855602/photo/kedarnath-in-india.jpg?s=612x612&w=0&k=20&c=_KmnQbbvqRftKusDTU_JUjVM3V80Mo2jBqaCNx948us=",
+      "desc": "A pilgrimage that turned into an unforgettable adventure! With the divine blessings of Lord Shiva, we embarked on a spiritual journey to Kedarnath. The arduous trek, the breathtaking views, and the camaraderie with friends made this experience truly special. The holy shrine, nestled amidst the majestic Himalayas, filled our hearts with peace and serenity. A journey that we'll cherish forever.",
+      "date": "2023-12-12"
+    }
+  ]
+}
