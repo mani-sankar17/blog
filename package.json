@@ -1,7 +1,6 @@
 {
   "name": "blog-app",
   "version": "0.1.0",
-  "homepage": "https://mani-sankar17.github.io/Blog-website",
   "private": true,
   "dependencies": {
     "bootstrap": "^5.3.3",
@@ -12,8 +11,6 @@
     "react-scripts": "5.0.1"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
