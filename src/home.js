@@ -56,10 +56,10 @@ const Home = () => {
                 </div>
                 <div className="foot-end">
                     <h2>Follow us</h2>
-                    <p><i class="fa-brands fa-facebook"></i> Facebook</p>
-                    <p><i class="fa-brands fa-instagram"></i> Instagram</p>
-                    <p><i class="fa-brands fa-twitter"></i> Twitter</p>
-                    <p><i class="fa-brands fa-youtube"></i> Youtube</p>
+                    <p><i className="fa-brands fa-facebook"></i> Facebook</p>
+                    <p><i className="fa-brands fa-instagram"></i> Instagram</p>
+                    <p><i className="fa-brands fa-twitter"></i> Twitter</p>
+                    <p><i className="fa-brands fa-youtube"></i> Youtube</p>
                 </div>
             </div>
             </section>

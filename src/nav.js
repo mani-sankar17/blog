@@ -1,4 +1,4 @@
-import { NavLink } from "react-router-dom";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
    
@@ -9,9 +9,9 @@ const Navbar = () => {
             <h1> <span>K</span>isi<span>K</span></h1>
             </div>
             <div className="sections">
-                <NavLink className={({ isActive }) => isActive ? "color" : ""} to="/" >Home</NavLink>
-                <NavLink className={({ isActive }) => isActive ? "color" : ""} to="#/post">New Post</NavLink>
-                <NavLink className={({ isActive }) => isActive ? "color" : ""} to="#/about">About</NavLink>
+                <Link className="color" to="/" >Home</Link>
+                <Link className="color" to="/post">New Post</Link>
+                <Link className="color" to="/about">About</Link>
             </div>
         </div>
     )
