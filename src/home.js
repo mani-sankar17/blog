@@ -4,9 +4,7 @@ import Navbar from './nav';
 
 const Home = () => {
     const navigate = useNavigate();
-                    
     const {memory, loading, error} = useFetch("http://localhost:7000/memory");
-
     return(
         <section className="home-section">
           <Navbar />

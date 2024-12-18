@@ -5,7 +5,6 @@ import Navbar from "./nav";
 
 const Post = () => {
     const navigate = useNavigate();
-
     const handleSubmit = (e) => {
         e.preventDefault();
         setPost(false);

@@ -4,6 +4,7 @@ import Post from "./post";
 import Details from "./details";
 import About from "./about";
 import Thanks from "./thanks";
+import Error from "./error";
 
 
 function App() {
@@ -15,6 +16,7 @@ function App() {
         <Route path="/details/:id" element={<Details/>} />
         <Route path="/about" element={<About />} />
         <Route path="/thanks" element={<Thanks />} />
+        <Route path="*" element={<Error />} />
       </Routes>
     </div>
   );
