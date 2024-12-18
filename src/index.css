@@ -30,7 +30,7 @@
   border-radius:5px;
   font-size:20px;
 }
-.color {
+.color:hover {
   background-color:#F2CC0F;
   color:#000 !important;
 }
@@ -318,7 +318,7 @@ form button {
 }
 
 .about-us img {
-  height:175px;
+  height:190px;
   float:left;
   padding:20px 10px 0px;
 }
@@ -338,6 +338,7 @@ form button {
   margin-bottom:5px;
 }
 .about-content p {
+  line-height:35px;
   font-size:25px;
   color:white;
   text-align:left;

@@ -52,7 +52,6 @@ const Home = () => {
                     <Link to="/">Home</Link>
                     <Link to="/post">Post</Link>
                     <Link to="/about">About</Link>
-                    <Link to="/">Contact</Link>
                 </div>
                 <div className="foot-end">
                     <h2>Follow us</h2>
