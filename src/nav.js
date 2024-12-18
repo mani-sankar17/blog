@@ -1,4 +1,4 @@
-import { Link, NavLink } from "react-router-dom";
+import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
    
@@ -7,11 +7,6 @@ const Navbar = () => {
         <div className="navbar">
             <div>
             <h1> <span>K</span>isi<span>K</span></h1>
-            </div>
-            <div className="hamburger-menu hide">
-                <span></span>
-                <span></span>
-                <span></span>
             </div>
             <div className="sections">
                 <NavLink className={({ isActive }) => isActive ? "color" : ""} to="/" >Home</NavLink>

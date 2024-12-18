@@ -10,7 +10,7 @@ const Home = () => {
     return(
         <section className="home-section">
           <Navbar />
-            <div style={{height:"400px",alignContent:"center",padding:"0px 100px"}}>
+            <div className="home-head">
             <h1 className="head">Moments become memories</h1>
             <h4 className="sub-head">Simple moments make great memories</h4>
             <button onClick={() => navigate("/post")} className="moment-button">Capture </button>
@@ -45,7 +45,7 @@ const Home = () => {
                     <h1>KisiK</h1>
                     <b>Stay tuned by subscribing to our newsletter</b>
                     <input type="email" placeholder="Enter email here" required/>
-                    <button className="subscribe" onClick={() => navigate("/thanks")}>Subscribe</button>
+                    <button className='subscribe' onClick={() => navigate("/thanks")}>Subscribe</button>
                 </div>
                 <div className="foot-mid">
                     <h2>Quick links</h2>

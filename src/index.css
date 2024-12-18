@@ -21,7 +21,6 @@
 .navbar h1 {
   font-size:40px;
   text-shadow:-1px -1px 2px #000;
-  /* color:white; */
 }
 .sections a {
   text-decoration:none;
@@ -38,7 +37,11 @@
 
 
 /* Home page styling */
-
+.home-head {
+  height:400px;
+  align-content:center;
+  padding:0px 100px;
+}
 .home-section {
 padding:10px 0px;
 font-family:sans-serif;
@@ -315,7 +318,9 @@ form button {
 }
 
 .about-us img {
-  height:330px;
+  height:175px;
+  float:left;
+  padding:20px 10px 0px;
 }
 .about-content {
   text-align:center;
@@ -335,16 +340,13 @@ form button {
 .about-content p {
   font-size:25px;
   color:white;
+  text-align:left;
   margin:20px 0px 0px;
 }
 .about-us {
-  display:grid;
   padding:30px;
-  grid-template-columns:40% 60%;
   gap:30px;
-  justify-content:space-around;
   height:500px;
-  align-content:center;
   margin:10px 20px;
 }
 
@@ -368,38 +370,4 @@ form button {
   border:none;
   cursor:pointer;
   font-size:15px;
-}
-
-/* Navbar responsiveness */
-.hamburger-menu span {
-  height:8px;
-  display:block;
-  margin:4px auto;
-  width:35px;
-  background-color:white;
-}
-.hide {
-  display:none;
-}
-@media (max-width:900px) {
-  .hamburger-menu {
-    display:block;
-    margin-top:8px;
-  } 
-  .sections {
-    display:none;
-  }
-  .show {
-    display:grid;
-    position:absolute;
-    top:90px;
-    right:70px; 
-    background-color:black;
-    border-radius:5px;
-  }
-  .show a {
-    padding:0px 5px;
-    margin:0px;
-    text-align:center;
-  }
 }

@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useNavigate, useParams } from "react-router-dom";
 import useFetch from "./useFetch";
 import Navbar from "./nav";
@@ -20,7 +19,7 @@ const Details = () => {
         <div className="details-container">
             <div className="details">
                 <div className="img-card">
-                    <img src={memory.url} />
+                    <img src={memory.url} alt={memory.title}/>
                     <div className="img-details">
                         <p>{memory.date}</p>
                         <p>~ {memory.name}</p>
